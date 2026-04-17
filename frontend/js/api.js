@@ -4,7 +4,7 @@
 // Incluye token JWT en cada request
 // =============================================
 
-const API_BASE = '';
+const API_BASE = 'https://botanica-production-a23f.up.railway.app';
 
 // Función base para fetch con manejo de errores y auth
 async function apiFetch(url, options = {}) {
